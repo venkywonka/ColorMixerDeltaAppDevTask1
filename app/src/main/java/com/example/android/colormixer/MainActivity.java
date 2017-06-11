@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         if(red==9){red=0;}
         else {++red;}
         TextView t = (TextView) findViewById(R.id.r_value);
-        t.setText(red);
+        t.setText(red+"");
         setBackground();
 
     }
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if(green==9){green=0;}
         else {++green;}
         TextView t = (TextView) findViewById(R.id.g_value);
-        t.setText(green);
+        t.setText(green+"");
         setBackground();
 
     }
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         if(blue==9){blue=0;}
         else {++blue;}
         TextView t = (TextView) findViewById(R.id.b_value);
-        t.setText(blue);
+        t.setText(blue+"");
         setBackground();
 
     }
